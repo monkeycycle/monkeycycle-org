@@ -13,7 +13,7 @@
 .card-listing-source-link {
     border-bottom: 0;
     font-size: .875em;
-    color: var(--colour-link-primary);
+    color: var(--colour-text-secondary);
     &:hover {
         color: var(--colour-text-secondary);
     }

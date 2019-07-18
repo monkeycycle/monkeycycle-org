@@ -1,0 +1,22 @@
+        <div class="card-listing-items">
+            <h3>Featured projects</h3>
+            {{#each data.projects}}
+
+
+                    <article class="card" itemscope>
+                        <div class="card-leadviz">
+                            <img class="card-leadviz--image" src="assets/media/{{lead_image}}" alt="Thumbnail for: {{title}}" />
+                        </div>
+                        <h1 class="heading heading-primary card-heading" itemprop="name">{{title}}</h1>
+                        <p itemprop="publisher">{{publisher}}</p>
+
+                        <p itemprop="what_i_did"><b>What I did</b> {{what_i_did}}</p>
+
+                        <p itemprop="awards_recognition"><b>Recognition</b> {{awards_recognition}}</p>
+
+                        <p itemprop="url"><a href="{{url}}" target="new">View project</a></p>
+
+                    </article>
+
+            {{/each}}
+        </div>

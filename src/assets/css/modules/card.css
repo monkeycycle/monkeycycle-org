@@ -9,11 +9,8 @@
                                                         margin-bottom: 0;
                                                     }
                                                     & h1 {
-                                                        color: var(--colour-link-primary);
-                                                        text-transform: uppercase;
-                                                    }
-                                                    &:hover h1 {
                                                         color: var(--colour-grey);
+                                                        text-transform: uppercase;
                                                     }
                                                 }
                                                 
@@ -23,7 +20,6 @@
                                                     float: left;
                                                     width: 300px;
                                                     margin-right: 1em;
-                                                    overflow: hidden;
                                                 }
                                                 
                                                 .card-leadviz--image {

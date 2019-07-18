@@ -6,5 +6,5 @@ a {
 }
 
 a:hover {
-    border-color: var(--colour-grey-light);
+    border-color: var(--colour-grey);
 }

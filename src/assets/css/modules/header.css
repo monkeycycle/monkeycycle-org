@@ -1,12 +1,12 @@
 .header {
     margin-top: 0;
-    padding-top: 60px;
+    padding-top: 80px;
     font-size: 1.25em;
     @media (--screen-sm) {
-        padding-top: 60px;
+        padding-top: 100px;
     }
     @media (--screen-md) {
-        padding-top: 60px;
+        padding-top: 100px;
     }
 }
 
@@ -23,15 +23,15 @@
 .header-title {
     display: inline-block;
     margin: 0;
-    font-size: 1.3em;
-    color: var(--colour-text-primary);
+    font-size: 1.4em;
+    color: var(--colour-grey);
     vertical-align: middle;
 }
 
 .header-tagline {
     display: inline-block;
-    margin: .2em 0 0 .5em;
-    font-size: 1em;
+    margin: .4em 0 0 .2em;
+    font-size: .9em;
     color: var(--colour-text-secondary);
     vertical-align: middle;
 }

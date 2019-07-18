@@ -17,7 +17,7 @@
 - title: Some doctors are charging both government and patients privately in illegal
     double-dipping practice
   publish: y
-  featured: y
+  featured: n
   slug: double-dipping-docs
   description: Some doctors are charging both government and patients privately in illegal
     double-dipping practice
@@ -31,7 +31,7 @@
 
 - title: Flipping of condo units by insiders fuels hot Vancouver market
   publish: y
-  featured: y
+  featured: n
   slug: vancity-condo-flip
   url: https://www.theglobeandmail.com/canada/article-flipping-of-condo-units-by-insiders-fuels-hot-vancouver-market/
   lead_image: vancity-condo-flip.png
@@ -43,7 +43,7 @@
 
 - title: 'Access denied: Canada’s refusal rate for visitor visas soars'
   publish: y
-  featured: y
+  featured: n
   slug: access-denied-temp-res-visa
   url: https://www.theglobeandmail.com/world/article-access-denied-canadas-refusal-rate-for-visitor-visas-soars/
   lead_image: access-denied-temp-res-visa-lead.png
@@ -56,7 +56,7 @@
 - title: 'Cut off: How Veterans Affairs’ clawback on medical marijuana threw a community
     off-kilter'
   publish: y
-  featured: y
+  featured: n
   slug: cut-off-vets-pot
   url: https://www.theglobeandmail.com/cannabis/article-cut-off-how-veterans-affairs-clawback-on-medical-marijuana-threw-a/
   lead_image: cut-off-vets-pot.png
@@ -68,7 +68,7 @@
 
 - title: Foreign investors avoid taxes through Canadian real estate
   publish: y
-  featured: y
+  featured: n
   slug: realestate-tax-avoidance
   url: http://www.theglobeandmail.com/real-estate/the-market/foreign-investors-avoid-taxes-by-buying-real-estate-in-canada/article26683767/
   lead_image: placeholder.png
@@ -80,7 +80,7 @@
 
 - title: 'A KILLER HIGH: Fentanyl’s deadly path'
   publish: y
-  featured: y
+  featured: n
   slug: killer-high
   url: http://www.theglobeandmail.com/news/investigations/a-killer-high-how-canada-got-addicted-tofentanyl/article29570025/
   lead_image: placeholder.png
@@ -92,7 +92,7 @@
 
 - title: Missing and Murdered
   publish: y
-  featured: y
+  featured: n
   slug: missing-murdered
   url: http://www.cbc.ca/missingandmurdered/
   lead_image: placeholder.png
@@ -104,7 +104,7 @@
 
 - title: Communication Security Establishment's cyberwarfare toolbox revealed
   publish: y
-  featured: y
+  featured: n
   slug: cse-toolbox
   url: http://www.cbc.ca/news/canada/communication-security-establishment-s-cyberwarfare-toolbox-revealed-1.3002978
   lead_image: placeholder.png
@@ -117,7 +117,7 @@
 - title: 'Project Levitation and your privacy: Politicians call for cybersurveillance
     oversight'
   publish: y
-  featured: y
+  featured: n
   slug: cse-levitation
   url: http://www.cbc.ca/news/politics/project-levitation-and-your-privacy-politicians-call-for-cybersurveillance-oversight-1.2935595
   lead_image: placeholder.png
@@ -129,7 +129,7 @@
 
 - title: 'CSE tracks millions of downloads daily: Snowden documents'
   publish: y
-  featured: y
+  featured: n
   slug: cse-download-tracking
   url: http://www.cbc.ca/news/canada/cse-tracks-millions-of-downloads-daily-snowden-documents-1.2930120
   lead_image: placeholder.png
@@ -141,7 +141,7 @@
 
 - title: Canadian Pipeline Incidents
   publish: y
-  featured: y
+  featured: n
   slug: canada-pipeline-incidents
   url: http://monkeycycle.org/project/canadian-pipeline-incidents/
   lead_image: pipelines-2.png
@@ -154,7 +154,7 @@
 
 - title: Rate my hospital
   publish: y
-  featured: y
+  featured: n
   slug: rate-my-hospital
   url: http://www.cbc.ca/news2/health/features/ratemyhospital/
   lead_image: rate-my-hospital-profile.jpg
