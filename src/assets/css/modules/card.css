@@ -9,7 +9,7 @@
                                                         margin-bottom: 0;
                                                     }
                                                     & h1 {
-                                                        color: var(--colour-grey);
+                                                        color: var(--colour-text-secondary);
                                                         text-transform: uppercase;
                                                     }
                                                 }
@@ -19,7 +19,9 @@
                                                     display: inline-block;
                                                     float: left;
                                                     width: 300px;
+                                                    height: 300px;
                                                     margin-right: 1em;
+                                                    overflow: hidden !important;
                                                 }
                                                 
                                                 .card-leadviz--image {
@@ -32,6 +34,7 @@
                                                 .card-heading {
                                                     line-height: 1.4;
                                                     transition: color .2s;
+                                                    text-transform: uppercase;
                                                 }
                                                 
                                                 .card-metadata {

@@ -3,14 +3,14 @@ layout: default.hbs
 title: Michael Pereira - data journalist and developer
 ---
 
-<div class="grid section">
-    <div class="grid-col grid-col-xl-4">
+<div class="section">
+    {{!-- <div class="grid-col grid-col-xl-4"> --}}
         <article class="bio">
             <p>
                 Building and using tools to tell stories.
             </p>
             <p>
-                I write code using Javascript, Python and R.  Sometimes I build bots that gather information and others that can chat. I create maps and charts and meaningful interactives. Occasionally I teach or talk about data analysis and visual journalism. I also contribute to a few open source projects.
+                I write code using Javascript, Python and R.  Sometimes I build bots that gather information and others that can chat. I create maps and charts and meaningful interactives. <a href="#section-featured-projects">Check out some of my work</a>. Occasionally I teach or talk about data and visual journalism. I also contribute to a few open source projects.
             </p>
             <p>
                 <strong>Interested in working together?  Drop me a
@@ -20,15 +20,12 @@ title: Michael Pereira - data journalist and developer
             </p>
 
         </article>
-    </div>
+    {{!-- </div> --}}
 </div>
 
-<div class="grid">
-
-    <section class="section grid-col grid-col-lg-6 grid-col-xl-3 card-listing">
-        {{> project-list}}
-    </section>
-</div>
+<section class="section">
+    {{> project-list}}
+</section>
 
 {{> external-links}}
 

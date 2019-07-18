@@ -1,5 +1,5 @@
         <div class="card-listing-items">
-            <h3>Featured projects</h3>
+            <h3 id="section-featured-projects" name="section-featured-projects">Featured projects</h3>
             {{#each data.projects}}
 
 
@@ -7,7 +7,8 @@
                         <div class="card-leadviz">
                             <img class="card-leadviz--image" src="assets/media/{{lead_image}}" alt="Thumbnail for: {{title}}" />
                         </div>
-                        <h1 class="heading heading-primary card-heading" itemprop="name">{{title}}</h1>
+
+                        <h3 class="heading heading-primary card-heading" itemprop="project_title">{{title}}</h3>
                         <p itemprop="publisher">{{publisher}}</p>
 
                         <p itemprop="what_i_did"><b>What I did</b> {{what_i_did}}</p>

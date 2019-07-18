@@ -1,7 +1,10 @@
 .header {
+    display: block;
+    float: left;    
     margin-top: 0;
-    padding-top: 80px;
+    padding-top: 40px;
     font-size: 1.25em;
+    width: 100%;
     @media (--screen-sm) {
         padding-top: 100px;
     }
@@ -10,28 +13,59 @@
     }
 }
 
+.header-logo {
+    display: block;
+    float: left;
+    width: 30%;
+    height: 100%;
+    @media (--screen-sm) {
+        width: 30%;
+    }
+}
+
+.header-nameplate {
+    display: block;
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding-top: 0px;
+    @media (--screen-md) {
+        width: 70%;
+        padding-top: 50px;
+    }
+    @media (--screen-sm) {
+        width: 70%;
+        padding-top: 20px;
+    }
+}
+
 .header-profile-img {
-    display: inline-block;
+    display: block;
     margin-top: -.05em;
     margin-right: .5em;
     border-radius: .5em;
-    background: #eee;
+    background: var(--colour-white);
     font-size: 2em;
     vertical-align: middle;
 }
 
 .header-title {
     display: inline-block;
+    float: left;
+    text-align: right;
     margin: 0;
     font-size: 1.4em;
-    color: var(--colour-grey);
-    vertical-align: middle;
+    color: var(--colour-text-primary);
 }
 
 .header-tagline {
     display: inline-block;
-    margin: .4em 0 0 .2em;
+    float: left;
+    text-align: right;
+    margin: .9em 0 0 .5em;
     font-size: .9em;
     color: var(--colour-text-secondary);
-    vertical-align: middle;
+    @media (--screen-sm) {
+        font-size: .7em;
+    }
 }
