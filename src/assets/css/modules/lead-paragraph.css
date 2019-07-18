@@ -1,7 +1,7 @@
 .lead-paragraph {
     font-size: 1em;
     line-height: 1.6;
-    color: #b3b3b3;
+    color: var(--colour-text-secondary);
     @media (--screen-md) {
         font-size: 1.125em;
     }

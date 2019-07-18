@@ -1,35 +1,44 @@
-                                            .card {
-                                            position: relative;
-                                            padding: 1.5em 0;
-                                            border-top: 1px solid var(--colour-grey-extralight);
-                                            &>p {
-                                                margin-bottom: 0;
-                                            }
-                                            &:hover h1 {
-                                                color: var(--colour-link-primary);
-                                            }
-                                        }
-                                        
-                                        .card-leadviz {
-                                            position: relative;
-                                            display: inline-block;
-                                            float: left;
-                                            width: 300px;
-                                            border: 1px solid #000;
-                                        }
-                                        
-                                        .card-leadviz--image {
-                                            display: block;
-                                            float: left;
-                                            width: 100%;
-                                            height: auto;
-                                        }
-                                        
-                                        .card-heading {
-                                            line-height: 1.4;
-                                            transition: color .2s;
-                                        }
-                                        
-                                        .card-metadata {
-                                            margin-top: 1.3em;
-                                            font-size: .75em;
+                                                .card {
+                                                    position: relative;
+                                                    display: inline-block;
+                                                    float: left;
+                                                    width: 100%;
+                                                    padding: 1.5em 0;
+                                                    border-top: 1px solid var(--colour-grey-extralight);
+                                                    &>p {
+                                                        margin-bottom: 0;
+                                                    }
+                                                    & h1 {
+                                                        color: var(--colour-link-primary);
+                                                        text-transform: uppercase;
+                                                    }
+                                                    &:hover h1 {
+                                                        color: var(--colour-grey);
+                                                    }
+                                                }
+                                                
+                                                .card-leadviz {
+                                                    position: relative;
+                                                    display: inline-block;
+                                                    float: left;
+                                                    width: 300px;
+                                                    margin-right: 1em;
+                                                    overflow: hidden;
+                                                }
+                                                
+                                                .card-leadviz--image {
+                                                    display: block;
+                                                    float: left;
+                                                    width: 100%;
+                                                    height: auto;
+                                                }
+                                                
+                                                .card-heading {
+                                                    line-height: 1.4;
+                                                    transition: color .2s;
+                                                }
+                                                
+                                                .card-metadata {
+                                                    margin-top: 1.3em;
+                                                    font-size: .75em;
+                                                }

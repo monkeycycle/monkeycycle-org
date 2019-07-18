@@ -13,10 +13,9 @@
 .card-listing-source-link {
     border-bottom: 0;
     font-size: .875em;
-    color: var(--colour-text-secondary);
-
+    color: var(--colour-link-primary);
     &:hover {
-        color: var(--colour-link-primary);
+        color: var(--colour-text-secondary);
     }
 }
 

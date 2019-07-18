@@ -7,10 +7,10 @@ title: Michael Pereira - data journalist and developer
     <div class="grid-col grid-col-xl-4">
         <article class="bio">
             <p class="lead-paragraph" itemprop="description">
-                Data journalist and developer. I build and use tools to tell stories.
+                I build and use tools to tell stories.
             </p>
             <p class="lead-paragraph" itemprop="description">
-                Occasionally I teach and talk about data analysis & visual journalism.
+                Occasionally I teach and talk about data analysis & visual journalism. Sometimes I build bots that gather and others that chat.
             </p>
         </article>
     </div>
@@ -21,22 +21,20 @@ title: Michael Pereira - data journalist and developer
 
     <section class="section grid-col grid-col-lg-6 grid-col-xl-3 card-listing">
         <div class="card-listing-items">
+            <h3>Recent projects</h3>
             {{#each data.projects}}
                 <article class="card" itemscope>
                     <div class="card-leadviz">
-                        <img class="card-leadviz--image" src="assets/img/{{lead_image}}" alt="{{title}}" />
+                        <img class="card-leadviz--image" src="assets/media/{{lead_image}}" alt="{{title}}" />
                     </div>
                     <h1 class="heading heading-primary card-heading" itemprop="name">{{title}}</h1>
                     <p itemprop="publisher">{{publisher}}</p>
                     <p itemprop="what_i_did">{{what_i_did}}</p>
                     <p itemprop="awards_recognition">{{awards_recognition}}</p>
-
+                    <p itemprop="url"><a href="{{url}}" target="new">View project</a></p>
                 </article>
             {{/each}}
         </div>
-        <footer class="card-listing-footer">
-
-        </footer>
     </section>
 </div>
 

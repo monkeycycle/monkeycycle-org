@@ -2,13 +2,11 @@
     margin-top: 0;
     padding-top: 60px;
     font-size: 1.25em;
-
     @media (--screen-sm) {
-        padding-top: 80px;
+        padding-top: 60px;
     }
-
     @media (--screen-md) {
-        padding-top: 100px;
+        padding-top: 60px;
     }
 }
 
@@ -17,7 +15,6 @@
     margin-top: -.05em;
     margin-right: .5em;
     border-radius: .5em;
-
     background: #eee;
     font-size: 2em;
     vertical-align: middle;
@@ -26,8 +23,15 @@
 .header-title {
     display: inline-block;
     margin: 0;
-
-    font-size: 1em;
+    font-size: 1.3em;
     color: var(--colour-text-primary);
+    vertical-align: middle;
+}
+
+.header-tagline {
+    display: inline-block;
+    margin: .2em 0 0 .5em;
+    font-size: 1em;
+    color: var(--colour-text-secondary);
     vertical-align: middle;
 }
