@@ -6,12 +6,16 @@ title: Michael Pereira - data journalist and developer
 <div class="grid section">
     <div class="grid-col grid-col-xl-4">
         <article class="bio">
-            <p class="lead-paragraph" itemprop="description">
-                I build and use tools to tell stories.
+            <p>
+                Building and using tools to tell stories.
             </p>
-            <p class="lead-paragraph" itemprop="description">
-                Occasionally I teach and talk about data analysis & visual journalism. Sometimes I build bots that gather and others that chat.
+            <p>
+                I write code using Javascript, Python and R. Sometimes I build bots that gather information and others that can chat. Occasionally I teach or talk about data analysis and visual journalism. I also contribute to a few open source projects.
             </p>
+            <p>
+                Interested in working together?  Drop me a DM or <a href="mailto:hello@monkeycycle.org">email</a>.
+            </p>
+
         </article>
     </div>
 </div>
@@ -27,11 +31,13 @@ title: Michael Pereira - data journalist and developer
                     <div class="card-leadviz">
                         <img class="card-leadviz--image" src="assets/media/{{lead_image}}" alt="{{title}}" />
                     </div>
-                    <h1 class="heading heading-primary card-heading" itemprop="name">{{title}}</h1>
-                    <p itemprop="publisher">{{publisher}}</p>
-                    <p itemprop="what_i_did">{{what_i_did}}</p>
-                    <p itemprop="awards_recognition">{{awards_recognition}}</p>
-                    <p itemprop="url"><a href="{{url}}" target="new">View project</a></p>
+                    <div class="card-details">
+                      <h1 class="heading heading-primary card-heading" itemprop="name">{{title}}</h1>
+                      <p itemprop="publisher">{{publisher}}</p>
+                      <p itemprop="what_i_did"><b>What I did</b> {{what_i_did}}</p>
+                      <p itemprop="awards_recognition"><b>Recognition</b> {{awards_recognition}}</p>
+                      <p itemprop="url"><a href="{{url}}" target="new">View project</a></p>
+                    </div>
                 </article>
             {{/each}}
         </div>

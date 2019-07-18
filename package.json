@@ -1,14 +1,10 @@
 {
-    "name": "alexhunt.io",
+    "name": "monkeycycle",
     "version": "1.0.0",
-    "author": "Michael Pereira <hello@alexhunt.io>",
+    "author": "Michael Pereira <hello@monkeycycle.org>",
     "description": "Personal website",
-    "homepage": "https://alexhunt.io",
+    "homepage": "https://monkeycycle.org",
     "private": true,
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/huntie/alexhunt.io"
-    },
     "scripts": {
         "build": "run-s site assets",
         "site": "metalsmith",
@@ -20,7 +16,6 @@
         "images.jpeg": "imagemin src/assets/img/*.jpg --plugin=mozjpeg --out-dir=build/assets/img/",
         "images.png": "imagemin src/assets/img/*.png --out-dir=build/assets/img/",
         "images.svg": "svgo -f src/assets/img/ -o build/assets/img/",
-        "media": "run-p media.webp media.jpeg media.svg media.png",
         "media.webp": "imagemin src/assets/media/* --plugin=webp --out-dir=build/assets/media/",
         "media.jpeg": "imagemin src/assets/media/*.jpg --plugin=mozjpeg --out-dir=build/assets/media/",
         "media.png": "imagemin src/assets/media/*.png --out-dir=build/assets/media/",
@@ -28,7 +23,7 @@
         "fonts": "sync-files src/assets/fonts/ build/assets/fonts/",
         "watch": "onchange src/** '!src/assets/**' -- npm run site & onchange src/assets/css/** -- npm run css",
         "serve": "http-server './build/' ",
-        "dev": "run-s site assets serve"
+        "start-dev": "run-p site assets serve watch"
     },
     "dependencies": {
         "autoprefixer": "^6.7.2",

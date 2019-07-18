@@ -1,8 +1,8 @@
-.lead-paragraph {
+.bio p {
     font-size: 1em;
     line-height: 1.6;
     color: var(--colour-text-secondary);
     @media (--screen-md) {
-        font-size: 1.125em;
+        font-size: 1.25em;
     }
 }
