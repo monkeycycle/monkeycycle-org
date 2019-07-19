@@ -1,18 +1,23 @@
 body {
-    background: var(--colour-white);
     font-family: 'Motiva Sans', 'Noto Sans', -apple-system, sans-serif;
-    font-size: 1rem;
+    font-size: 1.275em;
+    background: var(--colour-white);        
 
+    @media (--screen-xs) {
+        font-size: 1.275em;
+        background: var(--colour-white);        
+    }
     @media (--screen-sm) {
-        font-size: 1rem;
-        /* background: var(--colour-grey-extralight); */
+        font-size: 1.275em;
+        background: var(--colour-white);        
     }
     @media (--screen-md) {
         font-size: 1.4rem;
-        /* background: var(--colour-grey-light); */
+        background: var(--colour-white);        
     }   
     @media (--screen-lg) {
-        font-size: 1.4rem;
-        /* background: var(--colour-grey);         */
-    }        
+        font-size: 1.6rem;
+        background: var(--colour-white);        
+    }         
+   
 }

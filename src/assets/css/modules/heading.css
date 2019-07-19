@@ -3,13 +3,14 @@
 }
 
 .heading-primary {
-    margin-bottom: .9em;
+    margin-bottom: .8em;
     font-size: 1.125em;
-    color: var(--colour-text-primary);
+    color: var(--colour-text-secondary);
 }
 
 .heading-secondary {
     margin-bottom: .5em;
     font-size: .875em;
     color: var(--colour-text-secondary);
+    background: var(--colour-text-grey);
 }

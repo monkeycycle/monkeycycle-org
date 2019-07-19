@@ -4,7 +4,7 @@
                                                     float: left;
                                                     width: 100%;
                                                     padding: 1.5em 0;
-                                                    border-top: 1px solid var(--colour-grey-extralight);
+                                                    border-bottom: 1px solid var(--colour-grey-extralight);
                                                     &>p {
                                                         margin-bottom: 0;
                                                     }
