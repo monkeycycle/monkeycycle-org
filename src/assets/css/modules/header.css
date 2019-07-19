@@ -1,41 +1,50 @@
 .header {
-    display: block;
-    float: left;    
-    margin-top: 0;
-    padding-top: 40px;
     font-size: 1.25em;
     width: 100%;
+    padding-top: 60px;
+
     @media (--screen-sm) {
-        padding-top: 100px;
+
     }
     @media (--screen-md) {
-        padding-top: 100px;
+    
     }
+    @media (--screen-lg) {
+    
+    }    
 }
 
 .header-logo {
     display: block;
     float: left;
-    width: 30%;
-    height: 100%;
+    width: 25%;
+    height: auto;
     @media (--screen-sm) {
-        width: 30%;
+
     }
+    @media (--screen-md) {
+
+    }
+    @media (--screen-lg) {
+
+    }
+
 }
 
 .header-nameplate {
     display: block;
     float: right;
-    width: 50%;
+    width: 70%;
     height: 100%;
     padding-top: 0px;
-    @media (--screen-md) {
-        width: 70%;
-        padding-top: 50px;
-    }
     @media (--screen-sm) {
-        width: 70%;
         padding-top: 20px;
+    }
+    @media (--screen-md) {
+        padding-top: 40px;
+    }
+    @media (--screen-lg) {
+        padding-top: 50px;
     }
 }
 
@@ -52,20 +61,39 @@
 .header-title {
     display: inline-block;
     float: left;
-    text-align: right;
+    text-align: left;
     margin: 0;
-    font-size: 1.4em;
+    font-size: 1.4rem;
     color: var(--colour-text-primary);
+    @media (--screen-sm) {
+        font-size: 1.2rem;        
+    }
+    @media (--screen-md) {
+
+    }
+    @media (--screen-lg) {
+        font-size: 1.8rem;
+    }    
 }
 
 .header-tagline {
     display: inline-block;
     float: left;
-    text-align: right;
-    margin: .35em 0 0 .5em;
-    font-size: 1.6em;
-    color: var(--colour-text-secondary);
+    text-align: left;
+    margin: .4rem 0 0 0;
+    font-size: .7rem;
+    text-transform: uppercase;
+    color: var(--colour-grey);
+
     @media (--screen-sm) {
-        font-size: 1em;
+        
     }
+    @media (--screen-md) {
+
+    }
+    @media (--screen-lg) {
+        padding-top: .1rem;
+        font-size: 1.3rem;
+    }  
+
 }

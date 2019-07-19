@@ -1,8 +1,18 @@
 body {
     background: var(--colour-white);
     font-family: 'Motiva Sans', 'Noto Sans', -apple-system, sans-serif;
-    font-size: .9rem;
+    font-size: 1rem;
+
     @media (--screen-sm) {
         font-size: 1rem;
+        /* background: var(--colour-grey-extralight); */
     }
+    @media (--screen-md) {
+        font-size: 1.4rem;
+        /* background: var(--colour-grey-light); */
+    }   
+    @media (--screen-lg) {
+        font-size: 1.4rem;
+        /* background: var(--colour-grey);         */
+    }        
 }

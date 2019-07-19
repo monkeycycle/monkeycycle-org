@@ -1,9 +1,10 @@
                                             .bio p {
-                                                font-size: 1.2em;
-                                                line-height: 1.6;
+                                                font-size: 1.1rem;
+                                                font-weight: 200;
+                                                line-height: 1.4;
                                                 color: var(--colour-text-secondary);
                                                 @media (--screen-md) {
-                                                    font-size: 1.6em;
-                                                    line-height: 1.8;
+                                                    font-size: 1.4em;
+                                                    line-height: 1.6;
                                                 }
                                             }

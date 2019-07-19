@@ -1,0 +1,9 @@
+    @media (--screen-sm) {
+        background: var(--colour-grey);
+    }
+    @media (--screen-md) {
+        background: var(--colour-grey-light);
+    }   
+    @media (--screen-lg) {
+        background: var(--colour-grey-extralight);        
+    }

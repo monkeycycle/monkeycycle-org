@@ -1,5 +1,5 @@
 .section {
-    display: inline-block;
+    display: block;
     float: left;
     clear: both;
     width: 100%;
