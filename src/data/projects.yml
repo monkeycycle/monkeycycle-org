@@ -22,10 +22,9 @@
   description: Some doctors are charging both government and patients privately in illegal
     double-dipping practice
   url: https://www.theglobeandmail.com/news/investigations/doctors-extra-billing-private-clinics-investigation/article35260558/
-  lead_image: double-dipping-docs.png
+  lead_image: double-dipping-docs-1.png
   date: 06/10/2017
   publisher: The Globe and Mail
-
   what_i_did: 'Data analysis, Graphics '
 
 
@@ -71,7 +70,7 @@
   featured: n
   slug: realestate-tax-avoidance
   url: http://www.theglobeandmail.com/real-estate/the-market/foreign-investors-avoid-taxes-by-buying-real-estate-in-canada/article26683767/
-  lead_image: placeholder.png
+  lead_image: realestate-tax-avoidance.png
   date: 10/7/2015
   publisher: Globe and Mail
 
@@ -83,7 +82,7 @@
   featured: n
   slug: killer-high
   url: http://www.theglobeandmail.com/news/investigations/a-killer-high-how-canada-got-addicted-tofentanyl/article29570025/
-  lead_image: placeholder.png
+  lead_image: killer-high-title.png
   date: 3/13/2016
   publisher: Globe and Mail
 
@@ -95,7 +94,7 @@
   featured: n
   slug: missing-murdered
   url: http://www.cbc.ca/missingandmurdered/
-  lead_image: placeholder.png
+  lead_image: missing-murdered-title.png
   date: 4/11/2015
   publisher: CBC
 
@@ -144,7 +143,7 @@
   featured: n
   slug: canada-pipeline-incidents
   url: http://monkeycycle.org/project/canadian-pipeline-incidents/
-  lead_image: pipelines-2.png
+  lead_image: pipelines-3.png
   date: 10/22/2013
   publisher: CBC News Online
   type: Crowd-sourcing, Data visualization, Map, Investigative Journalism
@@ -157,7 +156,7 @@
   featured: n
   slug: rate-my-hospital
   url: http://www.cbc.ca/news2/health/features/ratemyhospital/
-  lead_image: rate-my-hospital-profile.jpg
+  lead_image: rate-my-hospital-landing.png
   date: 4/10/2013
   publisher: CBC News Online, 5th Estate
 
