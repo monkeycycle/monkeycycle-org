@@ -1,47 +1,80 @@
-                                                .card {
-                                                    position: relative;
-                                                    display: inline-block;
-                                                    float: left;
-                                                    width: 100%;
-                                                    padding: 1.5em 0;
-                                                    border-bottom: 1px solid var(--colour-grey-extralight);
-                                                    &>p {
-                                                        margin-bottom: 0;
-                                                    }
-                                                    & h1 {
-                                                        color: var(--colour-text-secondary);
-                                                        text-transform: uppercase;
-                                                    }
-                                                }
+.card {
+    display: inline-block;
+    width: 100%;
+    min-height: 300px;
+    padding: 1.5em 0 0 0;
+    margin: 0;
+    border-top: 1px solid var(--colour-link-primary);
+    &>p {
+        margin-bottom: 0;
+    }
+    & h1 {
+        color: var(--colour-text-secondary);
+        text-transform: uppercase;
+    }
+}
 
-                                                .card-leadviz {
-                                                    display: inline-block;
-                                                    float: left;
-                                                    min-width: 300px;
-                                                    width: 25%;
-                                                    height: 300px;
-                                                    margin-right: 1em;
-                                                    overflow: hidden !important;
-                                                }
+.card-leadviz {
+    display: inline-block;
+    float: left;
+    width: 25%;
+    min-width: 300px;
+    height: 300px;
+    margin-right: 1em;
+    overflow: hidden !important;
+}
 
-                                                .card-leadviz--image {
-                                                    display: inline-block;
-                                                    float: left;
-                                                    width: 100%;
-                                                    height: auto;
-                                                }
+.card-leadviz--image {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    height: auto;
+}
 
-                                                .card-metadata {
-                                                    display: inline-block;
-                                                    float: left;
-                                                }
+.card-metadata {
+    display: inline-block;
+    float: left;
+    width: 60%;
+    margin: 0;
+    padding: 0;
+    background: #eee;
+    @media (--screen-sm) {
+        width: 60%;
+    }
+    @media (--screen-md) {
+        width: 40%;
+    }
+    @media (--screen-lg) {
+        width: 60%;
+    }
+}
 
-                                                .card-heading {
-                                                    line-height: 1.4;
-                                                    transition: color .2s;
-                                                    text-transform: uppercase;
-                                                }
+.card-heading {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    margin: 2rem 0 0 0;
+    color: var(--colour-grey);
+}
 
-                                                .card-metadata p {
-                                                    font-size: .9rem;
-                                                }
+.card-metadata p {
+    font-size: .9rem;
+}
+
+.card-details-list {
+    display: block;
+    float: left;
+    list-style-type: none;
+    margin: 1.5rem 0 0 0;
+    padding: 0;
+    list-style-position: outside;
+}
+
+.card-details-list li {
+    font-size: .9rem;
+    line-height: 1.4;
+    margin-bottom: .5rem;
+}
+
+.card-metadata b {
+    color: var(--colour-text-primary);
+}

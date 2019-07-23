@@ -101,42 +101,18 @@
   what_i_did: 'Data analysis, Editorial tools and workflow development, Microsite development'
 
 
-- title: Communication Security Establishment's cyberwarfare toolbox revealed
-  publish: y
-  featured: n
-  slug: cse-toolbox
-  url: http://www.cbc.ca/news/canada/communication-security-establishment-s-cyberwarfare-toolbox-revealed-1.3002978
-  lead_image: placeholder.png
-  date: 3/23/2015
-  publisher: CBC
-
-  what_i_did: ''
-
-
-- title: 'Project Levitation and your privacy: Politicians call for cybersurveillance
-    oversight'
-  publish: y
-  featured: n
-  slug: cse-levitation
-  url: http://www.cbc.ca/news/politics/project-levitation-and-your-privacy-politicians-call-for-cybersurveillance-oversight-1.2935595
-  lead_image: placeholder.png
-  date: 1/28/2015
-  publisher: CBC
-
-  what_i_did: ''
-
-
-- title: 'CSE tracks millions of downloads daily: Snowden documents'
+- title: 'Snowden NSA Files'
   publish: y
   featured: n
   slug: cse-download-tracking
-  url: http://www.cbc.ca/news/canada/cse-tracks-millions-of-downloads-daily-snowden-documents-1.2930120
+  url:
+    - http://www.cbc.ca/news/canada/cse-tracks-millions-of-downloads-daily-snowden-documents-1.2930120
+    - http://www.cbc.ca/news/politics/project-levitation-and-your-privacy-politicians-call-for-cybersurveillance-oversight-1.2935595
+    - http://www.cbc.ca/news/canada/communication-security-establishment-s-cyberwarfare-toolbox-revealed-1.3002978
   lead_image: placeholder.png
   date: 1/27/2015
   publisher: CBC
-
-  what_i_did: ''
-
+  what_i_did: 'Security protocol development, Research, Explainer development'
 
 - title: Canadian Pipeline Incidents
   publish: y

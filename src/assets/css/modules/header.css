@@ -2,7 +2,7 @@
     display: block;
     float: left;
     width: 100%;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 20px;
     @media (--screen-sm) {}
     @media (--screen-md) {}

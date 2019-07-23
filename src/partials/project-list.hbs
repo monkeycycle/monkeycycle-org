@@ -1,5 +1,5 @@
         <div class="card-listing-items">
-            <h3 id="section-featured-projects" name="section-featured-projects">Featured projects</h3>
+            <h5 id="section-featured-projects" name="section-featured-projects">Featured projects</h5>
             {{#each data.projects}}
 
 
@@ -9,14 +9,14 @@
                         </div>
 
                         <div class="card-metadata">
-                            <h3 class="heading heading-primary card-heading" itemprop="project_title">{{title}}</h3>
-                            <p itemprop="publisher">{{publisher}}</p>
+                            <h3 class="card-heading" itemprop="project_title">{{title}}</h3>
 
-                            <p itemprop="what_i_did"><b>What I did</b> {{what_i_did}}</p>
-
-                            <p itemprop="awards_recognition"><b>Recognition</b> {{awards_recognition}}</p>
-
-                            <p itemprop="url"><a href="{{url}}" target="new">View project</a></p>
+                            <ul class="card-details-list">
+                                <li itemprop="publisher">{{publisher}}</li>
+                                <li itemprop="what_i_did"><b>What I did</b> {{what_i_did}}</li>
+                                <li itemprop="awards_recognition"><b>Recognition</b> {{awards_recognition}}</li>
+                                <li itemprop="url"><a href="{{url}}" target="new">View project</a><li>
+                            </ul>
                         </div>
 
                     </article>
