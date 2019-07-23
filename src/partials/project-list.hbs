@@ -3,19 +3,21 @@
             {{#each data.projects}}
 
 
-                    <article class="card" itemscope>
+                    <div class="card" itemscope>
                         <div class="card-leadviz">
                             <img class="card-leadviz--image" src="assets/media/{{lead_image}}" alt="Thumbnail for: {{title}}" />
                         </div>
 
-                        <h3 class="heading heading-primary card-heading" itemprop="project_title">{{title}}</h3>
-                        <p itemprop="publisher">{{publisher}}</p>
+                        <div class="card-metadata">
+                            <h3 class="heading heading-primary card-heading" itemprop="project_title">{{title}}</h3>
+                            <p itemprop="publisher">{{publisher}}</p>
 
-                        <p itemprop="what_i_did"><b>What I did</b> {{what_i_did}}</p>
+                            <p itemprop="what_i_did"><b>What I did</b> {{what_i_did}}</p>
 
-                        <p itemprop="awards_recognition"><b>Recognition</b> {{awards_recognition}}</p>
+                            <p itemprop="awards_recognition"><b>Recognition</b> {{awards_recognition}}</p>
 
-                        <p itemprop="url"><a href="{{url}}" target="new">View project</a></p>
+                            <p itemprop="url"><a href="{{url}}" target="new">View project</a></p>
+                        </div>
 
                     </article>
 
