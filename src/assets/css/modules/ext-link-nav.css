@@ -1,5 +1,7 @@
 .ext-link-nav {
     color: var(--colour-link-primary);
+    font-size: .8rem;
+    line-height: 1.4;
 }
 
 .ext-link-nav-item:not(:last-child):after {

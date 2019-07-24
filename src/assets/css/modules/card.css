@@ -1,9 +1,10 @@
 .card {
     display: inline-block;
     width: 100%;
+    height: auto;
     min-height: 300px;
-    padding: 1.5em 0 0 0;
-    margin: 0;
+    padding: 1.5em 0;
+    margin: 2em 0 0 0;
     border-top: 1px solid var(--colour-link-primary);
     &>p {
         margin-bottom: 0;
@@ -19,7 +20,8 @@
     float: left;
     width: 25%;
     min-width: 300px;
-    height: 300px;
+    height: auto;
+    min-height: 300px;
     margin-right: 1em;
     overflow: hidden !important;
 }
@@ -37,9 +39,8 @@
     width: 60%;
     margin: 0;
     padding: 0;
-    background: #eee;
     @media (--screen-sm) {
-        width: 60%;
+        width: 80%;
     }
     @media (--screen-md) {
         width: 40%;
@@ -50,10 +51,10 @@
 }
 
 .card-heading {
-    text-transform: uppercase;
-    font-size: 1.4rem;
-    margin: 2rem 0 0 0;
-    color: var(--colour-grey);
+    font-size: 1.3rem;
+    line-height: 1.4;
+    margin: 0;
+    color: var(--colour-text-secondary);
 }
 
 .card-metadata p {
@@ -76,5 +77,5 @@
 }
 
 .card-metadata b {
-    color: var(--colour-text-primary);
+    color: var(--colour-text-secondary);
 }

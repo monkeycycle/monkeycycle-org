@@ -1,7 +1,20 @@
 ---
 # Featured projects
 
+- title: 'Thousands of Canadian transit passengers target of sexual violence between 2013 and 2017, Globe analysis finds'
+  description: ""
+  publish: y
+  featured: y
+  slug: transit-sex-crimes
+  url: https://www.theglobeandmail.com/canada/article-data-gap-transit-sexual-assault-investigation/
+  lead_image: transit-sex-crimes-location-chart.png
+  date: 7/9/2019
+  publisher: Globe and Mail
+  what_i_did: 'Data analysis, Graphics'
+
+
 - title: 'Unfounded: WILL THE POLICE BELIEVE YOU?'
+  description: "A ground-breaking investigation of sexual assault, policing in Canada, and believing the victim."
   publish: y
   featured: y
   slug: unfounded-will-the-police-believe-you
@@ -9,18 +22,16 @@
   lead_image: unfounded-national-spotlight.png
   date: 2/3/2017
   publisher: Globe and Mail
-
   what_i_did: 'Data analysis, Graphics, Intake tools and workflow development'
-  awards_recognition: 2017 Michener Award, 2017 The Al Neuharth Innovation in Investigative Journalism
+  awards_recognition: 2017 Michener Award, 2017 Canadian Journalism Foundation Excellence in Journalism, 2017 National Newspaper Awards - Investigations, 2017 Online Journalism Association - Investigative Data Journalism, 2017 The Al Neuharth Innovation in Investigative Journalism
     Award, 2017 The University of Florida Award for Investigative Data Journalism
+
 
 - title: Some doctors are charging both government and patients privately in illegal
     double-dipping practice
   publish: y
   featured: n
   slug: double-dipping-docs
-  description: Some doctors are charging both government and patients privately in illegal
-    double-dipping practice
   url: https://www.theglobeandmail.com/news/investigations/doctors-extra-billing-private-clinics-investigation/article35260558/
   lead_image: double-dipping-docs-1.png
   date: 06/10/2017
@@ -36,7 +47,6 @@
   lead_image: vancity-condo-flip.png
   date: 05/29/2018
   publisher: The Globe and Mail
-
   what_i_did: 'Data analysis, Graphics '
 
 
@@ -48,7 +58,6 @@
   lead_image: access-denied-temp-res-visa-lead.png
   date: 07/08/2018
   publisher: The Globe and Mail
-
   what_i_did: 'Data gathering and analysis, Graphics '
 
 
@@ -61,8 +70,7 @@
   lead_image: cut-off-vets-pot.png
   date: 05/05/2018
   publisher: The Globe and Mail
-
-  what_i_did: 'Data analysis, Graphics '
+  what_i_did: 'Data gathering and analysis, Graphics '
 
 
 - title: Foreign investors avoid taxes through Canadian real estate
@@ -73,8 +81,7 @@
   lead_image: realestate-tax-avoidance.png
   date: 10/7/2015
   publisher: Globe and Mail
-
-  what_i_did: ''
+  what_i_did: 'Data analysis, GIS, Graphics '
 
 
 - title: 'A KILLER HIGH: Fentanyl’s deadly path'
@@ -85,8 +92,7 @@
   lead_image: killer-high-title.png
   date: 3/13/2016
   publisher: Globe and Mail
-
-  what_i_did: ''
+  what_i_did: 'Editorial workflow development, Explainer development'
 
 
 - title: Missing and Murdered
@@ -97,7 +103,6 @@
   lead_image: missing-murdered-title.png
   date: 4/11/2015
   publisher: CBC
-
   what_i_did: 'Data analysis, Editorial tools and workflow development, Microsite development'
 
 
@@ -114,6 +119,7 @@
   publisher: CBC
   what_i_did: 'Security protocol development, Research, Explainer development'
 
+
 - title: Canadian Pipeline Incidents
   publish: y
   featured: n
@@ -127,6 +133,7 @@
   awards_recognition: 2013 CAJ Online Media, Ryerson Review of Journalism - 2013 Best
     Interactive Features
 
+
 - title: Rate my hospital
   publish: y
   featured: n
@@ -135,8 +142,7 @@
   lead_image: rate-my-hospital-landing.png
   date: 4/10/2013
   publisher: CBC News Online, 5th Estate
-
-  what_i_did: ''
+  what_i_did: 'Data collection and workflow development, Microsite development'
   awards_recognition: Canadian Screen Awards - 2014, Canadian Medical Association
     - Media Award for Health Reporting 2014
 

@@ -40,17 +40,17 @@
     float: left;
     width: 60%;
     height: 100%;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
     @media (--screen-sm) {
-        padding-top: 30px;
+        padding-top: 20px;
     }
     @media (--screen-md) {
-        padding-top: 30px;
+        padding-top: 20px;
     }
     @media (--screen-lg) {
-        padding-top: 30px;
+        padding-top: 20px;
     }
 }
 
@@ -60,15 +60,14 @@
     text-align: left;
     width: 100%;
     margin: 0;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: var(--colour-text-primary);
     @media (--screen-sm) {
         font-size: 1.2rem;
     }
     @media (--screen-md) {}
     @media (--screen-lg) {
-        font-size: 1.8rem;
-        padding-top: 10px;
+        font-size: 1.4rem;
     }
 }
 

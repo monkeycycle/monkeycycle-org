@@ -13,3 +13,7 @@
     font-size: .875em;
     color: var(--colour-text-secondary);
 }
+
+.heading-uc {
+    text-transform: uppercase;
+}

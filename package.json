@@ -6,21 +6,36 @@
     "homepage": "https://monkeycycle.org",
     "private": true,
     "scripts": {
-        "build": "run-s site assets",
-        "site": "metalsmith",
-        "assets": "run-p css images media",
+
+        "clean.build": "rm -rf build",
+        "clean": "npm run clean.build",
+
         "css": "postcss --config postcss.json",
-        "images": "run-p images.webp images.jpeg images.svg images.png",
-        "media": "run-p media.webp media.jpeg media.svg media.png",
+
         "images.webp": "imagemin src/assets/img/* --plugin=webp --out-dir=build/assets/img/",
         "images.jpeg": "imagemin src/assets/img/*.jpg --plugin=mozjpeg --out-dir=build/assets/img/",
         "images.png": "imagemin src/assets/img/*.png --out-dir=build/assets/img/",
         "images.svg": "svgo -f src/assets/img/ -o build/assets/img/",
+
+        "media.300": "image-batch-resizer -d ./src/assets/media -s 300 --prefix '300_'",
+        "media.460": "image-batch-resizer -d ./src/assets/media -s 460 --prefix '460_'",
+        "media.640": "image-batch-resizer -d ./src/assets/media -s 640 --prefix '640_'",
+        "media.1024": "image-batch-resizer -d ./src/assets/media -s 1024 --prefix '1024_'",
+
         "media.webp": "imagemin src/assets/media/* --plugin=webp --out-dir=build/assets/media/",
         "media.jpeg": "imagemin src/assets/media/*.jpg --plugin=mozjpeg --out-dir=build/assets/media/",
         "media.png": "imagemin src/assets/media/*.png --out-dir=build/assets/media/",
         "media.svg": "svgo -f src/assets/media/ -o build/assets/media/",
+
+        "build": "run-s site assets",
+        "site": "metalsmith",
+        "assets": "run-p css images media",
+
+        "images": "run-p images.webp images.jpeg images.svg images.png",
+        "media": "run-p media.webp media.jpeg media.svg media.png",
+        "media.resizing": "run-p media.300 media.460 media.640 media.1024",
         "fonts": "sync-files src/assets/fonts/ build/assets/fonts/",
+
         "watch": "onchange src/** '!src/assets/**' -- npm run site & onchange src/assets/css/** -- npm run css",
         "serve": "http-server './build/' ",
         "start-dev": "run-p build serve watch"
@@ -29,6 +44,7 @@
         "autoprefixer": "^6.7.2",
         "handlebars": "^4.0.11",
         "helper-date": "^0.2.3",
+        "image-batch-resizer": "^0.8.1",
         "imagemin": "^5.3.1",
         "imagemin-cli": "^3.0.0",
         "imagemin-mozjpeg": "^6.0.0",
