@@ -1,11 +1,19 @@
-        <div class="card-listing-items">
-            <h5 class="heading-uc" id="section-featured-projects" name="section-featured-projects">Featured projects</h5>
+        <div class="card-listing">
+            <h3 class="card-listing-header heading-uc" id="section-featured-projects" name="section-featured-projects">Featured projects</h3>
             {{#each data.projects}}
 
 
                     <div class="card" itemscope>
                         <div class="card-leadviz">
-                            <img class="card-leadviz--image" src="assets/media/{{lead_image}}" alt="Thumbnail for: {{title}}" />
+                            {{!-- <img srcset="elva-fairy-320w.jpg 320w,
+                                                elva-fairy-480w.jpg 480w,
+                                                elva-fairy-800w.jpg 800w"
+                                sizes="(max-width: 320px) 280px,
+                                        (max-width: 480px) 440px,
+                                        800px"
+                                src="elva-fairy-800w.jpg" alt="Elva dressed as a fairy"> --}}
+
+                            <img class="card-leadviz--image" src="assets/media/lg_{{lead_image}}" alt="Thumbnail for: {{title}}" />
                         </div>
 
                         <div class="card-metadata">
@@ -25,7 +33,7 @@
                                 <li itemprop="awards_recognition"><b>Recognition</b> {{awards_recognition}}</li>
                                 {{/if}}
                                 {{#if url}}
-                                <li itemprop="url"><a href="{{url}}" target="new">View project</a><li>
+                                <li itemprop="url">>>> <a href="{{url}}" target="new">View project</a><li>
                                 {{/if}}
                             </ul>
                         </div>

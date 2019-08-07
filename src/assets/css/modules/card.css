@@ -1,29 +1,51 @@
 .card {
-    display: inline-block;
+    display: block;
+    float: left;
     width: 100%;
     height: auto;
     min-height: 300px;
-    padding: 1.5em 0;
-    margin: 2em 0 0 0;
-    border-top: 1px solid var(--colour-link-primary);
-    &>p {
-        margin-bottom: 0;
-    }
-    & h1 {
-        color: var(--colour-text-secondary);
-        text-transform: uppercase;
-    }
+    padding: 1em 0;
+    margin: 1em 0 2em 0;
 }
 
 .card-leadviz {
+    display: block;
+    float: left;
+    width: 100%;
+    height: auto;
+    min-width: 300px;
+    overflow: hidden !important;
+    border: 1px solid var(--colour-grey-lighter);
+    border-bottom: 1px solid var(--colour-grey-lighter);
+    background: var(--colour-white);
+    @media (--screen-sm) {
+        /* width: 300px; */
+    }
+    @media (--screen-md) {
+        /* width: 400px; */
+    }
+    @media (--screen-lg) {
+        /* width: 500px; */
+    }
+}
+
+.card-metadata {
     display: inline-block;
     float: left;
-    width: 25%;
-    min-width: 300px;
-    height: auto;
-    min-height: 300px;
-    margin-right: 1em;
-    overflow: hidden !important;
+    width: 100%;
+    margin: 0;
+    padding: .5em 1em .75em 1em;
+    background: var(--colour-grey-lighter);
+    border-bottom: 1px solid var(--colour-grey-light);
+    @media (--screen-sm) {
+        /* width: 300px; */
+    }
+    @media (--screen-md) {
+        /* width: 300px; */
+    }
+    @media (--screen-lg) {
+        /* width: 300px; */
+    }
 }
 
 .card-leadviz--image {
@@ -33,32 +55,17 @@
     height: auto;
 }
 
-.card-metadata {
-    display: inline-block;
-    float: left;
-    width: 60%;
-    margin: 0;
-    padding: 0;
-    @media (--screen-sm) {
-        width: 80%;
-    }
-    @media (--screen-md) {
-        width: 40%;
-    }
-    @media (--screen-lg) {
-        width: 60%;
-    }
-}
-
 .card-heading {
-    font-size: 1.3rem;
-    line-height: 1.4;
+    font-size: 1.2rem;
+    line-height: 1.3;
     margin: 0;
-    color: var(--colour-text-secondary);
+    color: var(--colour-text-primary);
 }
 
 .card-metadata p {
     font-size: .9rem;
+    margin: 0;
+    color: var(--colour-text-primary);
 }
 
 .card-details-list {
@@ -74,8 +81,11 @@
     font-size: .9rem;
     line-height: 1.4;
     margin-bottom: .5rem;
+    color: var(--colour-text-primary);
 }
 
 .card-metadata b {
-    color: var(--colour-text-secondary);
+    color: var(--colour-grey-darker);
+    font-weight: 900;
+    text-transform: uppercase;
 }

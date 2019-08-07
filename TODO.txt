@@ -1,0 +1,4 @@
+
+[] add sitemap
+[] tweak imagemin
+[] adjust metalsmith pipeline for processing .md in notes/ to pages under notes/

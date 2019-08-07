@@ -1,6 +1,6 @@
 {
     "input": "src/assets/css/*.css",
-    "output": "build/assets/css/main.css",
+    "output": "build/assets/css/main.min.css",
     "use": [
         "postcss-import",
         "postcss-at-rules-variables",

@@ -4,6 +4,10 @@
     line-height: 1.4;
 }
 
+.ext-link-nav:hover {
+    color: var(--colour-link-secondary);
+}
+
 .ext-link-nav-item:not(:last-child):after {
     margin: 0 .5em;
     content: '|';

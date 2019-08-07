@@ -1,4 +1,4 @@
-/* 
+/*
 *>*>*>*>*>* {
     background-color: #666 !important;
     border-color: #666 !important;
@@ -17,15 +17,17 @@
 *>*>* {
     background-color: #333 !important;
     border-color: #333 !important;
-} 
+}
 */
 
 @media (--screen-sm) {
     background: var(--colour-grey);
 }
+
 @media (--screen-md) {
     background: var(--colour-grey-light);
-}   
+}
+
 @media (--screen-lg) {
-    background: var(--colour-grey-extralight);        
+    background: var(--colour-grey-lighter);
 }

@@ -2,8 +2,11 @@
     display: block;
     float: left;
     width: 100%;
-    padding-top: 40px;
+    padding-left: -20px;
+    padding-right: -20px;
+    padding-top: 60px;
     padding-bottom: 20px;
+    background: var(--colour-white);
     @media (--screen-sm) {}
     @media (--screen-md) {}
     @media (--screen-lg) {}
@@ -16,6 +19,7 @@
     height: auto;
     @media (--screen-sm) {
         width: 100px;
+        padding-left: .5em
     }
     @media (--screen-md) {
         width: 25%;
@@ -78,6 +82,7 @@
     width: 100%;
     margin: 0;
     font-size: .7rem;
+    line-height: 1.4;
     text-transform: uppercase;
     color: var(--colour-grey);
     @media (--screen-sm) {}

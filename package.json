@@ -4,41 +4,37 @@
     "author": "Michael Pereira <hello@monkeycycle.org>",
     "description": "Personal website",
     "homepage": "https://monkeycycle.org",
+    "engineStrict": true,
+    "engines": {
+        "node": ">=12.6.0"
+    },
     "private": true,
     "scripts": {
-
         "clean.build": "rm -rf build",
         "clean": "npm run clean.build",
-
         "css": "postcss --config postcss.json",
-
-        "images.webp": "imagemin src/assets/img/* --plugin=webp --out-dir=build/assets/img/",
-        "images.jpeg": "imagemin src/assets/img/*.jpg --plugin=mozjpeg --out-dir=build/assets/img/",
-        "images.png": "imagemin src/assets/img/*.png --out-dir=build/assets/img/",
-        "images.svg": "svgo -f src/assets/img/ -o build/assets/img/",
-
-        "media.300": "image-batch-resizer -d ./src/assets/media -s 300 --prefix '300_'",
-        "media.460": "image-batch-resizer -d ./src/assets/media -s 460 --prefix '460_'",
-        "media.640": "image-batch-resizer -d ./src/assets/media -s 640 --prefix '640_'",
-        "media.1024": "image-batch-resizer -d ./src/assets/media -s 1024 --prefix '1024_'",
-
-        "media.webp": "imagemin src/assets/media/* --plugin=webp --out-dir=build/assets/media/",
-        "media.jpeg": "imagemin src/assets/media/*.jpg --plugin=mozjpeg --out-dir=build/assets/media/",
-        "media.png": "imagemin src/assets/media/*.png --out-dir=build/assets/media/",
-        "media.svg": "svgo -f src/assets/media/ -o build/assets/media/",
-
-        "build": "run-s site assets",
+        "build.media": "run-s assets.copy media.resizing images.minify media.minify",
+        "assets.copy": "cp -R src/assets/ build/assets/",
+        "media.resizing": "run-p resize.sm resize.md resize.lg resize.xl",
+        "resize.sm": "image-batch-resizer -d ./build/assets/media -s 480 --prefix 'sm_'",
+        "resize.md": "image-batch-resizer -d ./build/assets/media -s 840 --prefix 'md_'",
+        "resize.lg": "image-batch-resizer -d ./build/assets/media -s 960 --prefix 'lg_'",
+        "resize.xl": "image-batch-resizer -d ./build/assets/media -s 1024 --prefix 'xl_'",
+        "images.minify": "run-p images.webp images.jpeg images.png",
+        "images.webp": "imagemin build/assets/img/* --plugin=webp --out-dir=build/assets/img/",
+        "images.jpeg": "imagemin build/assets/img/*.jpg --plugin=mozjpeg --out-dir=build/assets/img/",
+        "images.png": "imagemin build/assets/img/*.png --out-dir=build/assets/img/",
+        "media.minify": "run-p media.webp media.jpeg media.png",
+        "media.webp": "imagemin build/assets/media/* --plugin=webp --out-dir=build/assets/media/",
+        "media.jpeg": "imagemin build/assets/media/*.jpg --plugin=mozjpeg --out-dir=build/assets/media/",
+        "media.png": "imagemin build/assets/media/*.png --out-dir=build/assets/media/",
         "site": "metalsmith",
-        "assets": "run-p css images media",
-
-        "images": "run-p images.webp images.jpeg images.svg images.png",
-        "media": "run-p media.webp media.jpeg media.svg media.png",
-        "media.resizing": "run-p media.300 media.460 media.640 media.1024",
-        "fonts": "sync-files src/assets/fonts/ build/assets/fonts/",
-
-        "watch": "onchange src/** '!src/assets/**' -- npm run site & onchange src/assets/css/** -- npm run css",
+        "assets": "run-s build.media css",
+        "build": "run-s clean site assets",
         "serve": "http-server './build/' ",
-        "start-dev": "run-p build serve watch"
+        "watch": "onchange src/** '!src/assets/**' -- npm run site & onchange src/assets/css/** -- npm run css",
+        "dev": "run-s build serve watch",
+        "start": "run-p build serve"
     },
     "dependencies": {
         "autoprefixer": "^6.7.2",
@@ -46,15 +42,16 @@
         "helper-date": "^0.2.3",
         "image-batch-resizer": "^0.8.1",
         "imagemin": "^5.3.1",
-        "imagemin-cli": "^3.0.0",
-        "imagemin-mozjpeg": "^6.0.0",
-        "imagemin-webp": "^4.1.0",
+        "imagemin-cli": "^5.0.0",
+        "imagemin-mozjpeg": "^8.0.0",
+        "imagemin-webp": "^5.1.0",
         "metalsmith": "^2.3.0",
         "metalsmith-data": "^0.1.2",
         "metalsmith-html-minifier": "^2.4.5",
         "metalsmith-in-place": "^1.0.0",
         "metalsmith-layouts": "^1.8.0",
-        "metalsmith-markdown": "^0.2.1",
+        "metalsmith-markdown": "^1.2.0",
+        "metalsmith-permalinks": "^2.2.0",
         "metalsmith-register-helpers": "^0.3.0",
         "postcss": "^5.2.18",
         "postcss-at-rules-variables": "^0.0.27",
@@ -67,11 +64,11 @@
         "postcss-for": "^2.1.1",
         "postcss-import": "^9.1.0",
         "postcss-nesting": "^2.3.1",
-        "svgo": "^0.7.2",
-        "sync-files": "^1.0.3"
+        "semver": "^6.3.0",
+        "svgo": "^1.3.0"
     },
     "devDependencies": {
         "npm-run-all": "^4.1.5",
-        "onchange": "^3.3.0"
+        "onchange": "^6.0.0"
     }
 }

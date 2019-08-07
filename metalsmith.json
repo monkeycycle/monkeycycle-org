@@ -8,7 +8,19 @@
             "links": "src/data/links.yml",
             "projects": "src/data/projects.yml"
         },
-        "metalsmith-markdown": true,
+        "metalsmith-markdown": {
+            "pedantic": false,
+            "gfm": true,
+            "tables": true,
+            "breaks": false,
+            "sanitize": false,
+            "smartLists": true,
+            "smartypants": false,
+            "xhtml": false
+        },
+        "metalsmith-permalinks": {
+            "pattern": ":url"
+        },
         "metalsmith-register-helpers": {
             "directory": "src/helpers/"
         },
