@@ -4,6 +4,12 @@
     line-height: 1.4;
 }
 
+.section .ext-link-nav {
+    @media (--screen-sm) {
+        margin: 0 1em;
+    }
+}
+
 .ext-link-nav:hover {
     color: var(--colour-link-secondary);
 }

@@ -3,6 +3,7 @@
     "destination": "build/",
     "clean": false,
     "plugins": {
+        "metalsmith-drafts": {},
         "metalsmith-data": {
             "site": "src/data/site.yml",
             "links": "src/data/links.yml",

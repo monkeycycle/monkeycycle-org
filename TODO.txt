@@ -1,4 +1,6 @@
 
 [] add sitemap
 [] tweak imagemin
+[] add lazyloading
 [] adjust metalsmith pipeline for processing .md in notes/ to pages under notes/
+[] optional image galleries for projects

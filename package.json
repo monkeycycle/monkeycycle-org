@@ -47,6 +47,7 @@
         "imagemin-webp": "^5.1.0",
         "metalsmith": "^2.3.0",
         "metalsmith-data": "^0.1.2",
+        "metalsmith-drafts": "^0.1.0",
         "metalsmith-html-minifier": "^2.4.5",
         "metalsmith-in-place": "^1.0.0",
         "metalsmith-layouts": "^1.8.0",
