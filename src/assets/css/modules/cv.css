@@ -1,0 +1,14 @@
+.section_cv {}
+
+.section__cv .job__title {
+    margin-bottom: 0;
+}
+
+.section__cv p {
+    font-size: .875rem;
+}
+
+.section__cv p b,
+.section__cv p strong {
+    font-weight: 900;
+}

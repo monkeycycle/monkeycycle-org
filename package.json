@@ -13,7 +13,7 @@
         "clean.build": "rm -rf build",
         "clean": "npm run clean.build",
         "css": "postcss --config postcss.json",
-        "build.media": "run-s assets.copy media.resizing images.minify media.minify",
+        "build.media": "run-s assets.copy",
         "assets.copy": "cp -R src/assets/ build/assets/",
         "media.resizing": "run-p resize.sm resize.md resize.lg resize.xl",
         "resize.sm": "image-batch-resizer -d ./build/assets/media -s 480 --prefix 'sm_'",
