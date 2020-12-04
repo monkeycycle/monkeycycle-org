@@ -1,9 +1,10 @@
         <div class="card-listing">
             <h3 class="card-listing-header heading-uc" id="section-featured-projects" name="section-featured-projects">Featured projects</h3>
+
             {{#each data.projects}}
 
-
                     <div class="card" itemscope>
+
                         <div class="card-leadviz">
                             {{!-- <img srcset="elva-fairy-320w.jpg 320w,
                                                 elva-fairy-480w.jpg 480w,
@@ -13,7 +14,23 @@
                                         800px"
                                 src="elva-fairy-800w.jpg" alt="Elva dressed as a fairy"> --}}
 
-                            <img class="card-leadviz--image" src="assets/media/lg_{{lead_image}}" alt="Thumbnail for: {{title}}" />
+                            {{#if slideshow_images}}
+                                <div class="glider-contain">
+                                    <div class="glider">
+                                    {{#each slideshow_images}}
+                                        <div>
+                                            <img data-src="assets/media/{{.}}" alt="Screenshot from {{title}}" alt="Thumbnail for: {{title}}" width="100%"  class="b-lazy card-leadviz--image" />
+                                        </div>
+                                    {{/each}}
+                                    </div>
+                                    <button aria-label="Previous" class="glider-prev">«</button>
+                                    <button aria-label="Next" class="glider-next">»</button>
+                                    <div role="tablist" class="dots"></div>
+                                </div>
+                            {{else}}
+                                            <img class="card-leadviz--image" src="assets/media/{{lead_image}}" alt="Thumbnail for: {{title}}" width="100%" class="b-lazy card-leadviz--image" />
+                            {{/if}}
+
                         </div>
 
                         <div class="card-metadata">
@@ -33,12 +50,13 @@
                                 <li itemprop="awards_recognition"><b>Recognition</b> {{awards_recognition}}</li>
                                 {{/if}}
                                 {{#if url}}
-                                <li itemprop="url">>>> <a href="{{url}}" target="new">View project</a><li>
+                                <li itemprop="url"><b>>>></b> <a href="{{url}}" target="new">View project</a><li>
                                 {{/if}}
                             </ul>
                         </div>
 
-                    </article>
+                    </div>
 
             {{/each}}
+
         </div>

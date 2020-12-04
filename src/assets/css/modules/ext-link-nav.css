@@ -15,7 +15,7 @@
 }
 
 .ext-link-nav-item:not(:last-child):after {
-    margin: 0 .5em;
+    margin: 0 1em 0 1em;
     content: '|';
     color: var(--colour-grey-light);
 }

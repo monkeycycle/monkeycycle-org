@@ -8,6 +8,8 @@
         <meta name="author" content="{{data.site.author}}">
 
         <link rel="stylesheet" href="/assets/css/main.min.css">
+        <link rel="stylesheet" href="/assets/css/vendor/glider.css">
+
 
         <link rel="apple-touch-icon" sizes="57x57" href="/assets/favico/favicon.ico">
         <link rel="apple-touch-icon" sizes="57x57" href="/assets/favico/apple-icon-57x57.png">
@@ -25,6 +27,9 @@
         <link rel="icon" type="image/png" sizes="96x96" href="/assets/favico/favicon-96x96.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/assets/favico/favicon-16x16.png">
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+        <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/min/tiny-slider.helper.ie8.js"></script><![endif]-->
+
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
@@ -38,6 +43,44 @@
         </main>
 
         {{> footer}}
+        <script src="/assets/js/vendor/blazy.min.js"></script>
+        <script src="/assets/js/vendor/glider-compat.min.js"></script>
+        <script src="/assets/js/vendor/glider.min.js"></script>
+        <script>
+            document.addEventListener('glider-loaded', hideFFScrollBars);
+            document.addEventListener('glider-refresh', hideFFScrollBars);
+            function hideFFScrollBars(e) {
+                var scrollbarHeight = 17; // Currently 17, may change with updates
+                if (/firefox/i.test(navigator.userAgent)) {
+                    // We only need to appy to desktop. Firefox for mobile uses
+                    // a different rendering engine (WebKit)
+                    if (window.innerWidth > 575) {
+                        e.target.parentNode.style.height = (e.target.offsetHeight - scrollbarHeight) + 'px'
+                    }
+                }
+            }
+            new Glider(document.querySelector('.glider'), {
+                slidesToShow: 1,
+                dots: '#dots',
+                scrollLock: true,
+                scrollPropagate: true,
+                draggable: true,
+                arrows: {
+                    prev: '.glider-prev',
+                    next: '.glider-next'
+                },
+                easing: function (x, t, b, c, d) {
+                    return c * (t /= d) * t + b;
+                }
+            });
 
+        </script>
+
+        <script>
+            ; (function () {
+                // Initialize
+                var bLazy = new Blazy();
+            })();
+        </script>
     </body>
 </html>

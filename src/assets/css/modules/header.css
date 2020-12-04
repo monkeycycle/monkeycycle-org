@@ -92,3 +92,23 @@
         font-size: 1rem;
     }
 }
+
+
+.header-contact {
+    display: inline-block;
+    float: left;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    font-size: .6rem;
+    line-height: 1.4;
+    text-transform: uppercase;
+    color: var(--colour-grey);
+    @media (--screen-sm) {}
+    @media (--screen-md) {}
+    @media (--screen-lg) {
+        padding-top: .1rem;
+        font-size: .8rem;
+    }
+}
+

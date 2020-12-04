@@ -1,6 +1,50 @@
 ---
 # Featured projects
 
+
+
+- title: 'Ongoing COVID-19 analysis and coverage'
+  description: ""
+  publish: y
+  featured: y
+  slug: covid-charts
+  lead_image: lg_covid_charts.png
+  date: 11/15/2019
+  publisher: Winnipeg Free Press
+  what_i_did: 'Data analysis, Research, Graphics'
+  slideshow_images:
+    - covid-19-hutterite-colonies.png
+    - wfp-cluster-outbreaks.png
+    - wfp_cadham_dynacare.png
+    - wfp_global_mobility_report_workplace.png
+    - wfp-20200605-labourforce-unemployment-1Kppl-25plus-MB-MF-web.png
+    - r-naught.png
+
+
+- title: 'Forewarned is forearmed'
+  description: ""
+  publish: y
+  featured: y
+  slug: churchill-climate-change
+  url: https://www.winnipegfreepress.com/special/bearingnorth/forewarned-is-forearmed-572839492.html
+  lead_image: wfp_days_above_29.png
+  date: 10/23/2020
+  publisher: Winnipeg Free Press
+  what_i_did: 'Data analysis, Graphics'
+
+
+- title: 'At the intersection of cash grab and safety'
+  description: ""
+  publish: y
+  featured: y
+  slug: photo-radar-intersections
+  url: https://www.winnipegfreepress.com/special/instagram/at-the-intersection-of-cash-grab-and-safety-565008942.html
+  lead_image: photo-radar.png
+  date: 11/15/2019
+  publisher: Winnipeg Free Press
+  what_i_did: 'Data analysis, Graphics'
+
+
 - title: 'Thousands of Canadian transit passengers target of sexual violence between 2013 and 2017, Globe analysis finds'
   description: ""
   publish: y
@@ -23,7 +67,7 @@
   date: 2/3/2017
   publisher: Globe and Mail
   what_i_did: 'Data analysis, Graphics, Intake tools and workflow development'
-  awards_recognition: 2017 Michener Award, 2017 Canadian Journalism Foundation Excellence in Journalism, 2017 National Newspaper Awards - Investigations, 2017 Online Journalism Association - Investigative Data Journalism, 2017 The Al Neuharth Innovation in Investigative Journalism
+  awards_recognition: 2017 Michener Award, 2017 Canadian Journalism Foundation Excellence in Journalism, 2017 National Newspaper Awards - Investigations, 2017 Online Journalism Association - Investigative Data Journalism, 2017 The Al Neuharth Innovation in Investigative Journalism, 2017 Global Editors Network Data Journalism Awards
     Award, 2017 The University of Florida Award for Investigative Data Journalism
 
 
@@ -49,6 +93,15 @@
   publisher: The Globe and Mail
   what_i_did: 'Data analysis, Graphics '
 
+- title: 'Fatal Crossings'
+  publish: y
+  featured: n
+  slug: fatal-crossings
+  url: https://www.theglobeandmail.com/news/toronto/more-than-160-pedestrians-killed-by-vehicles-since-2011/article30391640/
+  lead_image: fatal-crossings-lead.png
+  date: 06/10/2016
+  publisher: The Globe and Mail
+  what_i_did: 'Data gathering and analysis, Graphics, Web development'
 
 - title: 'Access denied: Canada’s refusal rate for visitor visas soars'
   publish: y
@@ -81,7 +134,7 @@
   lead_image: realestate-tax-avoidance.png
   date: 10/7/2015
   publisher: Globe and Mail
-  what_i_did: 'Data analysis, GIS, Graphics '
+  what_i_did: 'Data analysis, GIS, Graphics, Web development'
 
 
 - title: 'A KILLER HIGH: Fentanyl’s deadly path'
@@ -93,6 +146,7 @@
   date: 3/13/2016
   publisher: Globe and Mail
   what_i_did: 'Editorial workflow development, Explainer development'
+  awards_recognition: 2016 CAJ Open Media
 
 
 - title: Missing and Murdered
@@ -103,7 +157,9 @@
   lead_image: missing-murdered-title.png
   date: 4/11/2015
   publisher: CBC
-  what_i_did: 'Data analysis, Editorial tools and workflow development, Microsite development'
+  what_i_did: 'Data analysis, Editorial tools and workflow development, Web development'
+  awards_recognition: 2016 CAJ Online Media, 2016 CAJ Don McGillivray Award for investigative journalism, 2016 Canadian Hillman Prize
+
 
 
 - title: 'Snowden NSA Files'
@@ -129,7 +185,7 @@
   date: 10/22/2013
   publisher: CBC News Online
   type: Crowd-sourcing, Data visualization, Map, Investigative Journalism
-  what_i_did: 'Data gathering and analysis, Development of data verification tools, '
+  what_i_did: 'Data gathering and analysis, Development of data verification tools, Web development '
   awards_recognition: 2013 CAJ Online Media, Ryerson Review of Journalism - 2013 Best
     Interactive Features
 
@@ -142,7 +198,7 @@
   lead_image: rate-my-hospital-landing.png
   date: 4/10/2013
   publisher: CBC News Online, 5th Estate
-  what_i_did: 'Data collection and workflow development, Microsite development'
+  what_i_did: 'Data collection and workflow development, Web development'
   awards_recognition: Canadian Screen Awards - 2014, Canadian Medical Association
     - Media Award for Health Reporting 2014
 

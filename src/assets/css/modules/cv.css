@@ -1,14 +1,50 @@
-.section_cv {}
 
-.section__cv .job__title {
-    margin-bottom: 0;
+.section_cv {
+    margin-bottom: 2em;
+    padding: 0;
 }
 
-.section__cv p {
-    font-size: .875rem;
+
+.section_cv li,
+.section_cv p {
+    font-size: 1rem;
 }
 
-.section__cv p b,
-.section__cv p strong {
-    font-weight: 900;
+.cv_job {
+    margin-bottom: 2em;
+}
+
+.cv_job .job_title {
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+}
+
+.cv_job .job_place_time {
+    margin: 0 0 1em 0;
+    padding: 0;
+    line-height: 1.4;
+}
+
+.cv_job .job_projects {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 1.1rem;
+}
+
+.cv_job  ul {
+    margin-top: .5em;
+}
+
+.cv_job p,
+.cv_job li {
+    font-size: 1rem;
+}
+
+.cv_job li b,
+.cv_job li strong,
+.cv_job p b,
+.cv_job p strong {
+    font-weight: bold;
 }
