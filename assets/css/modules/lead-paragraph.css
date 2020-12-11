@@ -1,0 +1,28 @@
+.intro p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-weight: normal;
+    color: var(--colour-text-secondary);
+    @media (--screen-sm) {
+        padding: 0 .75em;
+        font-size: 1.1rem;
+        line-height: 1.4;
+    }
+    @media (--screen-md) {
+        font-size: 1.3rem;
+        line-height: 1.5;
+    }
+    @media (--screen-lg) {
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+}
+
+.intro p:first {
+    font-size: .7rem;
+}
+
+.intro p b,
+.intro p strong {
+    font-weight: 900;
+}

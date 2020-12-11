@@ -1,0 +1,114 @@
+.header {
+    display: block;
+    float: left;
+    width: 100%;
+    padding-left: -20px;
+    padding-right: -20px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    background: var(--colour-white);
+    @media (--screen-sm) {}
+    @media (--screen-md) {}
+    @media (--screen-lg) {}
+}
+
+.header-logo {
+    display: inline-block;
+    float: left;
+    width: 25%;
+    height: auto;
+    @media (--screen-sm) {
+        width: 100px;
+        padding-left: .5em
+    }
+    @media (--screen-md) {
+        width: 25%;
+        width: 100px;
+    }
+    @media (--screen-lg) {
+        width: 25%;
+    }
+}
+
+.header-logo-img {
+    display: block;
+    margin-top: 0;
+    margin-right: .5em;
+    background: var(--colour-white);
+    font-size: 2em;
+    vertical-align: middle;
+}
+
+.header-nameplate {
+    display: block;
+    float: left;
+    width: 60%;
+    height: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    @media (--screen-sm) {
+        padding-top: 20px;
+    }
+    @media (--screen-md) {
+        padding-top: 20px;
+    }
+    @media (--screen-lg) {
+        padding-top: 20px;
+    }
+}
+
+.header-title {
+    display: inline-block;
+    float: left;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    font-size: 1.2rem;
+    color: var(--colour-text-primary);
+    @media (--screen-sm) {
+        font-size: 1.2rem;
+    }
+    @media (--screen-md) {}
+    @media (--screen-lg) {
+        font-size: 1.4rem;
+    }
+}
+
+.header-tagline {
+    display: inline-block;
+    float: left;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    font-size: .7rem;
+    line-height: 1.4;
+    text-transform: uppercase;
+    color: var(--colour-grey);
+    @media (--screen-sm) {}
+    @media (--screen-md) {}
+    @media (--screen-lg) {
+        padding-top: .1rem;
+        font-size: 1rem;
+    }
+}
+
+
+.header-contact {
+    display: inline-block;
+    float: left;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    font-size: .6rem;
+    line-height: 1.4;
+    text-transform: uppercase;
+    color: var(--colour-grey);
+    @media (--screen-sm) {}
+    @media (--screen-md) {}
+    @media (--screen-lg) {
+        padding-top: .1rem;
+        font-size: .8rem;
+    }
+}
+

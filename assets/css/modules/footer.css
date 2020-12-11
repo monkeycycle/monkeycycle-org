@@ -1,0 +1,12 @@
+.footer {
+    border-top: 1px solid var(--colour-link-primary);
+    padding-bottom: 80px;
+    padding-left: .5em;
+    padding-right: .5em;
+    font-size: .875rem;
+}
+
+.footer-copyright {
+    margin: 0;
+    font-size: .875rem;
+}

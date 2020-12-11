@@ -1,0 +1,9 @@
+@-moz-document url-prefix() {
+    .glider-track {
+        margin-bottom: 17px;
+    }
+
+    .glider-wrap {
+        overflow: hidden;
+    }
+}
