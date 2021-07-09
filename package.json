@@ -50,6 +50,8 @@
     "scripts": {
         "clean": "rm -rf build",
         "site": "metalsmith",
+        "assets": "run-s assets.copy assets.css",
+        
         "assets.copy": "cp -R src/assets/ build/assets/",
         "assets.css": "postcss --config postcss.json",
 
@@ -69,13 +71,14 @@
         "media.jpeg": "imagemin build/assets/media/*.jpg --plugin=mozjpeg --out-dir=build/assets/media/",
         "media.png": "imagemin build/assets/media/*.png --out-dir=build/assets/media/",
 
-        "assets": "run-s assets.copy assets.css",
         "assets.media.process": "run-s assets.media.resize assets.media.minify",
+
+
         "build": "run-s clean site assets",
-        "serve": "http-server './build/' ",
+        "serve": "http-server './build/'",                
         "watch.css": "onchange src/assets/css/**/* -- npm run assets.copy && npm run assets.css",
         "dev": "run-s build serve watch.css",
-        "start": "run-p build serve"
+        "start": "run-s build serve"
     }
 
 }

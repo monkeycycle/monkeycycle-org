@@ -15,20 +15,19 @@
                                 src="elva-fairy-800w.jpg" alt="Elva dressed as a fairy"> --}}
 
                             {{#if slideshow_images}}
-                                <div class="glider-contain">
-                                    <div class="glider">
+                            <div class="splide">
+                                <div class="splide__track">
+                                    <ul class="splide__list">
                                     {{#each slideshow_images}}
-                                        <div>
-                                            <img data-src="assets/media/{{.}}" alt="Screenshot from {{title}}" alt="Thumbnail for: {{title}}" width="100%"  class="b-lazy card-leadviz--image" />
-                                        </div>
+                                        <li class="splide__slide">
+                                            <img  src="assets/media/{{.}}" alt="Screenshot from {{title}}" alt="Thumbnail for: {{title}}" width="100%" />
+                                        </li>
                                     {{/each}}
-                                    </div>
-                                    <button aria-label="Previous" class="glider-prev">«</button>
-                                    <button aria-label="Next" class="glider-next">»</button>
-                                    <div role="tablist" class="dots"></div>
+                                    </ul>
                                 </div>
+                            </div>
                             {{else}}
-                                            <img class="card-leadviz--image" src="assets/media/{{lead_image}}" alt="Thumbnail for: {{title}}" width="100%" class="b-lazy card-leadviz--image" />
+                                <img class="card-leadviz--image"  src="assets/media/{{lead_image}}" alt="Thumbnail for: {{title}}" width="100%" />
                             {{/if}}
 
                         </div>

@@ -36,8 +36,8 @@
     margin: 1em 0 0 0;
     padding: 1em 1em 1em 1em;
     background: var(--colour-grey-lighter);
-    border-top: 1px solid var(--colour-link-secondary);
-    border-bottom: 3px solid var(--colour-link-secondary);
+    border-top: 1px solid var(--colour-grey);
+    border-bottom: 3px solid var(--colour-grey);
     @media (--screen-sm) {
         /* width: 300px; */
     }
@@ -91,3 +91,4 @@
     font-weight: 900;
     text-transform: uppercase;
 }
+

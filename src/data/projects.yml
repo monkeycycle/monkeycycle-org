@@ -13,9 +13,17 @@
   publisher: Winnipeg Free Press
   what_i_did: 'Data analysis, Research, Graphics'
   slideshow_images:
-    - covid-19-hutterite-colonies.png
+    - wfp_covid_hospitalization_type.png
+    - wfp_pch_outbreaks_nov_dec_top_select.png
+    - wfp_agegroups_weekly_text.png
+    - wfp_covid_deaths_reported_daily.png
+    - wfp_household_income.png
+    - contact-tracing-case-counts.png
+    - wfp_mobility_2020_retail_and_recreation.png
+    - covid-19-community-transmission_650.png
     - wfp-cluster-outbreaks.png
     - wfp_cadham_dynacare.png
+    - covid-19-hutterite-colonies.png
     - wfp_global_mobility_report_workplace.png
     - wfp-20200605-labourforce-unemployment-1Kppl-25plus-MB-MF-web.png
     - r-naught.png
@@ -29,6 +37,23 @@
   url: https://www.winnipegfreepress.com/special/bearingnorth/forewarned-is-forearmed-572839492.html
   lead_image: wfp_days_above_29.png
   date: 10/23/2020
+  publisher: Winnipeg Free Press
+  what_i_did: 'Data analysis, Graphics'
+  slideshow_images:
+      - wfp_days_above_29.png
+      - wfp_nights_above_18.png
+      - wfp_ice_days.png
+      - wfp_winnipeg_2000_2020_ribbon.png
+
+
+- title: 'Vacant Winnipeg'
+  description: ""
+  publish: y
+  featured: y
+  slug: vacant-winnipeg
+  url: https://stage.www.winnipegfreepress.com/local/maryland-street-block-to-be-demolished-566861402.html
+  lead_image: ywg_vacant_buildings_desktop.png
+  date: 01/09/2019
   publisher: Winnipeg Free Press
   what_i_did: 'Data analysis, Graphics'
 
@@ -69,7 +94,11 @@
   what_i_did: 'Data analysis, Graphics, Intake tools and workflow development'
   awards_recognition: 2017 Michener Award, 2017 Canadian Journalism Foundation Excellence in Journalism, 2017 National Newspaper Awards - Investigations, 2017 Online Journalism Association - Investigative Data Journalism, 2017 The Al Neuharth Innovation in Investigative Journalism, 2017 Global Editors Network Data Journalism Awards
     Award, 2017 The University of Florida Award for Investigative Data Journalism
-
+  slideshow_images:
+      - unfounded-national-spotlight.png
+      - unfounded-female-officers.png
+      - unfounded-rate-province.png
+      - unfounded-southern-ontario-rates.png
 
 - title: Some doctors are charging both government and patients privately in illegal
     double-dipping practice
@@ -79,6 +108,17 @@
   url: https://www.theglobeandmail.com/news/investigations/doctors-extra-billing-private-clinics-investigation/article35260558/
   lead_image: double-dipping-docs-1.png
   date: 06/10/2017
+  publisher: The Globe and Mail
+  what_i_did: 'Data analysis, Graphics '
+
+
+- title: Data analysis reveals three-quarters of Toronto cops reside outside the city
+  publish: y
+  featured: n
+  slug: tps-where-they-live
+  url: https://www.theglobeandmail.com/canada/article-flipping-of-condo-units-by-insiders-fuels-hot-vancouver-market/
+  lead_image: tps-where-they-live.png
+  date: 01/08/2019
   publisher: The Globe and Mail
   what_i_did: 'Data analysis, Graphics '
 
@@ -118,12 +158,18 @@
     off-kilter'
   publish: y
   featured: n
-  slug: cut-off-vets-pot
+  slug: globe-cut-off-vets-pot.png
   url: https://www.theglobeandmail.com/cannabis/article-cut-off-how-veterans-affairs-clawback-on-medical-marijuana-threw-a/
   lead_image: cut-off-vets-pot.png
   date: 05/05/2018
   publisher: The Globe and Mail
   what_i_did: 'Data gathering and analysis, Graphics '
+  slideshow_images:
+    - globe-pot-vets-map.png
+    - globe-cut-off-vets-pot.png
+    - globe-cut-off-vets-pot2.png
+    - globe-cut-off-vets-pot3.png
+
 
 
 - title: Foreign investors avoid taxes through Canadian real estate
