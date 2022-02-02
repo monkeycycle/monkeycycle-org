@@ -12,11 +12,11 @@
     "dependencies": {
         "autoprefixer": "^6.7.2",
         "glider": "^0.1.0",
-        "handlebars": "^4.0.11",
+        "handlebars": "^4.7.7",
         "helper-date": "^0.2.3",
         "image-batch-resizer": "^0.8.1",
         "imagemin": "^5.3.1",
-        "imagemin-cli": "^5.0.0",
+        "imagemin-cli": "^6.0.0",
         "imagemin-mozjpeg": "^8.0.0",
         "imagemin-webp": "^5.1.0",
         "lory.js": "^2.5.3",
@@ -29,10 +29,10 @@
         "metalsmith-markdown": "^1.2.0",
         "metalsmith-permalinks": "^2.2.0",
         "metalsmith-register-helpers": "^0.3.0",
-        "postcss": "^5.2.18",
+        "postcss": "^8.4.6",
         "postcss-at-rules-variables": "^0.0.27",
         "postcss-calc": "^5.3.1",
-        "postcss-cli": "^2.6.0",
+        "postcss-cli": "^8.3.1",
         "postcss-csso": "^1.1.2",
         "postcss-custom-media": "^5.0.1",
         "postcss-custom-properties": "^5.0.2",
@@ -51,16 +51,13 @@
         "clean": "rm -rf build",
         "site": "metalsmith",
         "assets": "run-s assets.copy assets.css",
-        
         "assets.copy": "cp -R src/assets/ build/assets/",
         "assets.css": "postcss --config postcss.json",
-
         "assets.media.resize": "run-p resize.sm resize.md resize.lg resize.xl",
         "resize.sm": "image-batch-resizer -d ./build/assets/media -s 480 --prefix 'sm_'",
         "resize.md": "image-batch-resizer -d ./build/assets/media -s 840 --prefix 'md_'",
         "resize.lg": "image-batch-resizer -d ./build/assets/media -s 960 --prefix 'lg_'",
         "resize.xl": "image-batch-resizer -d ./build/assets/media -s 1024 --prefix 'xl_'",
-
         "assets.media.minify": "run- images.minify media.minify",
         "images.minify": "run-p images.webp images.jpeg images.png",
         "images.webp": "imagemin build/assets/img/* --plugin=webp --out-dir=build/assets/img/",
@@ -70,15 +67,11 @@
         "media.webp": "imagemin build/assets/media/* --plugin=webp --out-dir=build/assets/media/",
         "media.jpeg": "imagemin build/assets/media/*.jpg --plugin=mozjpeg --out-dir=build/assets/media/",
         "media.png": "imagemin build/assets/media/*.png --out-dir=build/assets/media/",
-
         "assets.media.process": "run-s assets.media.resize assets.media.minify",
-
-
         "build": "run-s clean site assets",
-        "serve": "http-server './build/'",                
+        "serve": "http-server './build/'",
         "watch.css": "onchange src/assets/css/**/* -- npm run assets.copy && npm run assets.css",
         "dev": "run-s build serve watch.css",
         "start": "run-s build serve"
     }
-
 }

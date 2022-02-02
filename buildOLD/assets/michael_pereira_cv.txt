@@ -1,0 +1,79 @@
+Michael Pereira
+Data journalist and developer
+https://www.monkeycycle.org
+
+
+
+## Skills and Experience
+
+    * Research, data analysis, and reporting (internal and published) for investigative stories
+    * Planning and development of workflows and reporting tools
+    * Design and implementation of research including survey design and analytics
+    * Development of scraper agents for one-off stories and ongoing projects
+    * Planning, filing, tracking and extracting information and data from freedom-of-information responses
+    * Planning and development of newsroom tools and related training including:
+        startr, Chart Tool, Table d'hôte, Style Book, Map Builder
+
+    * Design and development of interactive multimedia elements accompanying stories
+    * Design of static graphic elements accompanying stories in print, app, mobile web, and social
+    * Strategy and development of chat bots for Facebook and Twitter
+
+    * Proficient with geographic information systems (GIS) including QGIS and ArcGIS
+    * Database design and deployment (PostgreSQL, MySQL, MongoDB)
+    * Proficient in CSS, HTML, JavaScript, Python, R, and SQL
+    * Experienced with deployments to AWS, Heroku, and Digital Ocean
+    * Proficient in design suites (Adobe Photoshop, Illustrator, Sketch)
+    * Proficient in office suites (Google, Microsoft, OpenOffice)
+
+
+## Awards and Recognition
+
+    * Michener Award (2018): Unfounded
+    * The Al Neuharth Innovation in Investigative Journalism (2017): Unfounded
+    * CAJ McGillivray Award and Data Journalism Award (2017): Unfounded
+    * CAJ Open Media (2016): A Killer High: Fentanyl’s deadly path
+    * CAJ Don McGillivray Award for investigative journalism (2016): Missing & Murdered
+    * Canadian Hillman Prize (2016): Missing & Murdered
+    * Canadian Screen Awards (2014): Rate my hospital
+    * Canadian Medical Association - Media Award for Health Reporting (2014): Rate my hospital
+    * CAJ Online Media (2013): Pipeline incidents
+    * Ryerson Review of Journalism - Best Interactive Features (2013): Pipeline incidents
+
+
+## Employment History
+
+Multimedia Editor
+Winnipeg Free Press ::: October 2019 - Present
+Notable projects
+    Research, analysis, graphics and writing throughout the COVID-19 pandemic
+    Research and production of daily news graphics
+
+
+Interactive Editor
+The Globe and Mail ::: April 2015 - July 2019
+Notable projects
+    Unfounded: Will the police believe you? (three part series)
+    Cut off: How Veterans Affairs’ clawback on medical marijuana threw a community off-kilter
+    A Killer High: Fentanyl’s deadly path
+
+
+News Developer
+CBC ::: January 2011 - April 2015
+Notable projects
+    Canadian pipeline incidents
+    Missing and Murdered Indigenous Women
+    the fifth estate's Rate My Hospital project
+    Multiple municipal, provincial, and federal elections
+    Summer and winter Olympics
+
+
+Web Developer and Associate Communications Editor
+Greenpeace Canada ::: 2007 - March 2009
+
+
+Information Architect
+Canadian Mental Health Association, Knowledge Centre ::: 2006 - August 2007
+
+
+Developer
+McGill University ::: 2003 - March 2006
