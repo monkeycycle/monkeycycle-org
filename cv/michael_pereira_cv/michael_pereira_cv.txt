@@ -1,26 +1,27 @@
-Michael Pereira | Data Journalist and Developer
+Michael Pereira
+Data Journalist and Developer
 michael@monkeycycle.org | @__m_pereira | 204 887 6859
 
 
 SKILLS AND EXPERIENCE
-Research, data analysis, and reporting (internal and published) for investigative stories
-Planning and development of workflows and reporting tools
-Design and implementation of research including survey design and analytics
-Development of scraper agents for one-off stories and ongoing projects
-Planning, filing, tracking and extracting information and data from freedom-of-information responses
-Planning and development of newsroom tools and related training including:
+• Research, data analysis, and reporting (internal and published) for investigative stories
+• Planning and development of workflows and reporting tools
+• Design and implementation of research including survey design and analytics
+• Development of scraper agents for one-off stories and ongoing projects
+• Planning, filing, tracking and extracting information and data from freedom-of-information responses
+• Planning and development of newsroom tools and related training including:
 • startr, Chart Tool, Table d'hôte, Style Book, Map Builder
 
-Design and development of interactive multimedia elements accompanying stories
-Design of static graphic elements accompanying stories in print, app, mobile web, and social
-Strategy and development of chat bots for Facebook and Twitter
+• Design and development of interactive multimedia elements accompanying stories
+• Design of static graphic elements accompanying stories in print, app, mobile web, and social
+• Strategy and development of chat bots for Facebook and Twitter
 
-Proficient with geographic information systems (GIS) including QGIS and ArcGIS
-Database design and deployment (PostgreSQL, MySQL, MongoDB)
-Proficient in CSS, HTML, JavaScript, Python, R, and SQL
-Experienced with deployments to AWS, Heroku, and Digital Ocean
-Proficient in design suites (Adobe Photoshop, Illustrator, Sketch)
-Proficient in office suites (Google, Microsoft, OpenOffice)
+• Proficient with geographic information systems (GIS) including QGIS and ArcGIS
+• Database design and deployment (PostgreSQL, MySQL, MongoDB)
+• Proficient in CSS, HTML, JavaScript, Python, R, and SQL
+• Experienced with deployments to AWS, Heroku, and Digital Ocean
+• Proficient in design suites (Adobe Photoshop, Illustrator, Sketch)
+• Proficient in office suites (Google, Microsoft, OpenOffice)
 
 
 AWARDS AND RECOGNITION
@@ -38,8 +39,20 @@ AWARDS AND RECOGNITION
 
 EMPLOYMENT HISTORY
 
+Research Consultant
+Waapihk Research Group ::: June 2022 - Present
+Notable projects
+• Research and costing for medical transportation hubs in Northern Manitoba
+• Research and writing interim reports for a First Nations community health profile
+
+Associate Editor & Web Developer
+Investigative Journalism Foundation ::: October 2021 - June 2022
+Notable projects
+• Design and initial build of publishing platform, data repository and workflows
+• Managing the ongoing development of core scrapers and data collection tools by news apps team
+
 Multimedia Editor
-Winnipeg Free Press ::: October 2019 - Present
+Winnipeg Free Press ::: October 2019 - October 2021
 Notable projects
 • Research, analysis, graphics and writing throughout the COVID-19 pandemic
 • Research and production of daily news graphics
